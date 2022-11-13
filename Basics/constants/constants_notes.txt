@@ -1,4 +1,0 @@
-1. Defining a Constant
-    MY_CONSTANT = "Hello"
-
-    
