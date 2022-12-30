@@ -15,3 +15,17 @@ p numbers.fetch(0)
 p numbers.fetch(100, nil)
 
 p numbers.include?(40)
+
+# convert string to array another way
+
+names = ("a".."m").to_a
+p names.class
+
+# empty? and nil?
+# empty checks if the object length is > 0
+# nil check if the object returns nil value
+
+names20 = ["supriya", "manju", "mangala", "maruthi"]
+p names20.empty? 
+p names20.nil?
+p names[100].nil?
